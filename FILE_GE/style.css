@@ -1,0 +1,180 @@
+/* Copyright © 2016 Tz
+This work is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License.
+To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/4.0/.
+*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+body {
+	width: 780px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 0 0.9em gray;
+    /*background: content-box url("img/F9F9F9.png") center / 800px 100% no-repeat #ececec;*/
+    background: #ececec url("img/F9F9F9-y.png") repeat-y center;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #666;
+}
+header h2 {
+    margin: 10px;
+	text-align: center;
+}
+header h3 {
+	margin: 10px;
+	display: block;
+	float: left;
+}
+nav {
+    width: 250px;
+	display: block;
+	float: right;
+}
+nav>h2 {
+	color: #999;
+    margin-top: 7px;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ccc;
+    font-size: 10px;
+    font-weight: bold;
+}
+#searchForm {
+	margin: 5px 0px 10px 0px;
+}
+#searchForm>input {
+    background-color: white;
+	font: 14px Arial;
+    cursor: auto;
+    padding: 1px 0px;
+    border: 2px inset;
+    text-rendering: auto;
+    color: black;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+#searchForm>button {
+    text-align: center;
+	padding: 1px 6px;
+    cursor: default;
+    border: 2px outset buttonface;
+}
+nav>menu {
+	width: 240px;
+    line-height: 1.5em;
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    list-style: none;
+    text-align: left;
+}
+nav>menu li a {
+    color: #ff7800;
+    display: block;
+    padding: 4px 0px 4px 25px;
+    border-bottom: 1px solid #ccc;
+    background: url("img/nav.gif") 10px 50% no-repeat;
+}
+nav>menu li a:hover {
+    color: #666;
+    background-color: #ccc;
+    border-bottom-color: #fff;
+}
+nav>menu strong {
+	color: #FF0000;
+}
+#content {
+    width: 485px;
+}
+.details {
+    color: #2BA94F;
+}
+section {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+section>a {
+    display: block;
+    text-align: center;
+}
+section strong {
+    font-weight: bold;
+}
+section a strong {
+    color: #008af4;
+    font-size: 12px;
+    float: left;
+}
+section p a {
+    font-weight: bold;
+    font-size: 12px;
+    float: left;
+}
+section>article {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-bottom: 30px;
+    line-height: 1.5em;
+}
+article>h3 {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-style: normal;
+}
+article a{
+    color: #ff7800;
+    border-style: none;
+}
+article>h5 {
+    color: #999;
+    display: block;
+    height: 16px;
+    font-size: 10px;
+    font-weight: normal;
+    padding-top: 4px;
+    border-top: 1px solid  #ccc;
+}
+footer {
+	clear: both;
+	display: block;
+    text-align: center;
+}
+footer>nav {
+    width: 100%;
+    display: inline;
+    float: left;
+    text-align: justify;
+    border-bottom: 1px solid #CCCCCC;
+    font: bold 14px Arial, Helvetica, sans-serif;
+    padding: 20px 0px 30px 0px;
+    margin: 10px 5px 10px 0px;
+}
+footer>nav span {
+    padding: 2px 6px;
+    background: #fff;
+    border-color: #999;
+}
+footer>nav a {
+    padding: 2px 6px;
+    background: #fff;
+    cursor: auto;
+    color: #ff7800;
+    border: solid 1px #ddd;
+}
+footer>nav a:hover {
+    outline: #4D90FE auto 5px;
+}
